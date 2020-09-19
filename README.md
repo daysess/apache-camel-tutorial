@@ -1,6 +1,7 @@
 
 # Tutorial do Apache Camel
-#### Realizado no youtube por Dinesh Krishnan
+#### Realizado no youtube por Dinesh Krishnan 
+- [Seu link no canal no youtube](https://www.youtube.com/channel/UCS2ex_Z4kjBckbVcSa1ebEA)
 
 ## Dicas:
 
@@ -47,5 +48,9 @@ No exemplo do repositório foi utilizado a versão:
     <version>3.4.0</version>
 </dependency>
 ```
+
+5. Quinto exemplo: Acrescentar objeto na descrição de envio na fila do activemq
+
+
 
 
