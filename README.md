@@ -28,4 +28,24 @@ No exemplo do repositório foi utilizado a versão:
     - Você visualizará que o arquivo que chega na pasta input_box será copiado para a pasta output_box. 
 
 3. Terceiro exemplo: Consumir e Produzir
+4. Quarto exemplo: Trabalhando com ActiveMQ
+    Nesse exemplo é mostrado como criar uma fila e alimenta-la com os dados de um arquivo. 
+    Para isso é necessário baixar o apache-activemq (http://activemq.apache.org/activemq-5154-release)
+    - Abrir o cmd e dentro da pasta ... apache-activemq-x.xx.x\bin, digitar o codigo: activemq start
+    - Acesse: http://localhost:8161/
+    - Clique na opção Manage ActiveMQ broker;
+    - Informe o usuário: admin, senha: admin;
+    - Para criar uma fila, clique em Queues, informe o nome da fila e clique em criar.
+
+    Acesse o portal: https://mvnrepository.com/ e procure a dependencia: camel activemq:
+
+```
+<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-activemq -->
+<dependency>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-activemq</artifactId>
+    <version>3.4.0</version>
+</dependency>
+```
+
 
